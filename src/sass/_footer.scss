@@ -1,0 +1,44 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;   
+    color: #333333;
+    background-color: #e9eae2;
+    .info{
+        width: 50%;
+        padding-top: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .map{
+        width: 50%;
+        height: 40vw;
+    }
+    .contacts{
+        width: 50%;
+        padding-top: 5vw;
+    }
+    .logo{
+        width: 50%;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .header-contacts{
+       margin-left: 14%;
+       a{
+        color:  #333333;
+        &:hover{
+            font-weight: 800;
+        }
+       }
+    }
+    .header-address{
+        color: #333333;
+    }
+    .copyright{
+        font-size: 0.8vw;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+.conteiner{
+    
+}
+.section-header{
+    position: relative;
+    width: 30%;
+}
+.section-name{
+    color: #fefefe;
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 3vw;
+    text-transform: uppercase;
+    bottom: 32%;
+    left: 45%;
+  }

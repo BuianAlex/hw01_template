@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    a{
+        color: #fff;
+        &:hover{
+            font-weight: 800;
+        }
+    }
+}
+.section-menu{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    // padding-right: calc(100vw/10);
+    //padding-top: 3vh;
+    background-image: linear-gradient(to top left, #7acec3 calc(50% - 1px), rgb(255, 255, 255), #7acec3 calc(50% + 1px) );
+}
+.with-logo{
+    width: calc((100vw / 3)*2);
+    height: calc(100vw/3);
+    padding-left: calc(100vw/10);
+    background-color: #e9eae2;
+    background-image: url("./../img/header_pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+    overflow: hidden;
+    h1{
+        width: calc(100vw /15);
+        color: #393d3c;
+        font-size: 1.2vw;
+        font-weight: 400;
+        line-height: 1.2vw;
+        text-transform: uppercase;
+        
+    }
+}
+.company-logo{
+    width: calc(100vw /10);
+    margin-top: 3vw;
+}
+.social-buttons{
+   color: #7acec3;
+   i{
+       position: relative;
+       margin: 3vw 0;
+       cursor: pointer;
+       width: 1vw;
+        height: 1vw;
+        padding: 0.8vw;
+       border: 1px solid transparent;
+
+       &::before{
+           position: absolute;
+           font-size: 1.5vw;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);           
+       }
+       &:hover{
+           border-color: #7acec3;;
+        }
+   }
+}
+.nav-btn{
+    display: block;
+    position: relative;
+    border: 0.2vw solid #fff;
+    background-color: inherit;
+    width: 25%;
+    padding-top: 25%;
+    margin: 3vw auto;
+    div{
+		position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+		background: #fff;
+		width: 40%;
+		height: 0.3vw;
+		&:nth-child(1){
+			top: 40%;
+		}
+		&:nth-child(2){
+			top: calc(50% - 0.15vw);
+		}
+		&:nth-child(3){
+			bottom: 40%;
+		}
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+.header-address{
+    margin-top: 20%;
+    margin-left: 14%;
+    color: #ffffff;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 0.9vw;
+    text-transform: uppercase;
+}
+.header-contacts{
+    margin-top: 10%;
+    margin-left: 30%;
+    color: #ffffff;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 0.9vw;
+    text-transform: uppercase;
+}
